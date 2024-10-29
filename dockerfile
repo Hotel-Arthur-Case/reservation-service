@@ -1,8 +1,8 @@
 # Use an official Python runtime as a parent image
-FROM python:3
+FROM python:3.9-slim
 
 # Set the working directory in the container
-WORKDIR /usr/src/app
+WORKDIR /Users/BirkLauritzen/Documents/KEA/3semester/hotelArthurCase/Untitled/reservation-service/app.py
 
 # Copy the requirements file and install dependencies
 COPY requirements.txt ./
