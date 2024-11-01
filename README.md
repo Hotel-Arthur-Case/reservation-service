@@ -1,13 +1,9 @@
-# service
+# Reservation Microservice
 
-Reservation service
+## Beskrivelse
+Reservation Microservice er en RESTful API, der håndterer booking behandling, herunder oprettelse, hentning og eksport af booking data i CSV-format.
 
-first name
-last name
-booking number
-price
-roomm type
-country
-days rented
-phone number
-email
+## Funktioner
+- Oprette nye reservationer / bookings
+- Hente alle reservationer
+- Eksportere reservationer til CSV
